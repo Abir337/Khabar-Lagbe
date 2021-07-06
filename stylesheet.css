@@ -1,0 +1,167 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(0, 0, 0);
+}
+
+.active {
+  background-color: rgb(5, 94, 129);
+}
+.navbar {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+  padding-right: 20%;
+  padding-bottom: 30px;
+}
+.orange-color {
+  color: orange;
+}
+.flexible-container {
+  display: flex;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 10%;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 80%;
+}
+.order-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(121, 230, 230), rgb(65, 65, 240));
+  padding: 15px 45px;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  border-radius: 30px;
+}
+.frame {
+  background-image: url(images/Frame\ 57.jpg);
+  background-size: cover;
+  height: 320px;
+}
+#image-size {
+  width: 430px;
+  padding-left: 10%;
+}
+.about-me {
+  padding-left: 20%;
+}
+.Contact-Me {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(121, 230, 230), rgb(65, 65, 240));
+  padding: 10px 25px;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  border-radius: 30px;
+  margin-left: 20%;
+}
+
+.recipies {
+  text-align: center;
+}
+#reci-para {
+  padding-left: 20%;
+}
+
+.recipes-separates {
+  width: 30%;
+  height: 690px;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px grey;
+}
+.image-resize {
+  height: 240px;
+  width: 90%;
+  border-radius: 40px;
+  padding-top: 20px;
+}
+
+.input-box {
+  display: flex;
+  margin-top: 10px;
+  background-color: blanchedalmond;
+  padding-left: 0%;
+}
+
+.form {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2px 2px;
+  box-sizing: border-box;
+  border: 2px solid skyblue;
+  border-radius: 4px;
+  background-color: lightskyblue;
+}
+#form-size {
+  padding-left: 40%;
+}
+#button-link {
+  text-decoration: none;
+  background-color: rgb(15, 155, 136);
+  padding: 10px 15px;
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 1%;
+}
+
+footer {
+  margin-top: 5px;
+  background-color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+#grey-color {
+  color: gray;
+}
+
+footer p {
+  color: white;
+  margin-left: 20%;
+  padding-bottom: 5px;
+}
